@@ -77,12 +77,12 @@ const App = () => {
             <li><a className="nav-link" href="#roadmap">Roadmap</a></li>
             <li className="nav-btn">
               <button className="btn-dark-blue" style={{ width: '100px' }}>
-                <a href="https://github.com/interfinetwork/project-delivery-data/blob/main/GrokElo/GrokElo_AuditReport_InterFi.pdf" target="_blank" rel="noreferrer">Audit</a>
+                <a href="https://t.me/metaland_discovery" target="_blank" rel="noreferrer">Audit</a>
               </button>
             </li>
             <li className="nav-btn">
               <button className="btn-dark-blue" style={{ width: '100px' }}>
-                <a href="https://pinksale.notion.site/GrokElo-KYC-Verification-eb841ffe481b4b59a4ed647743bd203d?pvs=4" target="_blank" rel="noreferrer">KYC</a>
+                <a href="https://t.me/metaland_discovery" target="_blank" rel="noreferrer">KYC</a>
               </button>
             </li>
           </ul>
