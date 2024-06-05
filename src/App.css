@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+.font-family-orbitron-normal {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.mxacoin {
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+:root {
+  /* Colors */
+  --color-limegreen-100: #32ce06;
+  --color-skyblue-100: #5DCCFA;
+  --color-darkblue-100: #001a25f7;
+  --color-gray-100: #22212d;
+  --color-gray-300: #a8a7a7;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-xl: 20px;
+  --padding-5xs: 8px;
+  --padding-7xl: 26px;
+  --padding-3xs: 10px;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+}
+
+/* General Styles */
+body {
+  font-family: "Input Mono", "Open Sans", sans-serif;
+  background-color: #222; /* Background color */
+  color: #9CB8A5;
+}
+
+a {
+  color: var(--color-darkblue-100);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-skyblue-100);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Jost", sans-serif;
+}
+
+p {
+  color: #9CB8A5;
+  line-height: 21.6px;
+}
+
+/* Box Container Styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  background-color: #333; /* Box color */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.box-item {
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+}
+
+.box-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Button Styles */
+.btn-dark-blue {
+  background-color: #0056b3; /* Button color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  color: white;
+}
+
+.btn-dark-blue:hover {
+  background-color: #004494; /* Button hover color */
+}
+
+.btn-dark-blue a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Iframe Container Styles */
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none; /* Remove iframe border */
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: var(--color-darkblue-100);
+}
+
+.navbar .logo img {
+  width: 150px;
+}
+
+.navbar nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Icon Social Styles */
+.icon-social-desktop .filename-1-frame {
+  margin-left: 70px;
+}
+
+.icon-social-desktop .filename-1-frame img {
+  width: 35px;
+}
+
+/* Disclaimer Styles */
+.disclaimer-bottom h3 {
+  color: white;
+}
+
+.disclaimer-bottom p {
+  color: white;
+  margin-top: 20px;
+  font-size: 14px;
+}
+:root {
+  /* Colors */
+  --color-limegreen-100: #32ce06;
+  --color-skyblue-100: #5DCCFA;
+  --color-darkblue-100: #001a25f7;
+  --color-gray-100: #22212d;
+  --color-gray-300: #a8a7a7;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-xl: 20px;
+  --padding-5xs: 8px;
+  --padding-7xl: 26px;
+  --padding-3xs: 10px;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+}
+
+.btn-dark-blue {
+  border: none;
+  background: linear-gradient(180deg, rgba(1, 113, 158, 0.50) 0%, rgba(0, 91, 128, 0.26) 34.22%), #00202D;
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 1px 0px #002635;
+  margin: 0px 10px;
+  text-decoration: none;
+}
+
+.btn-sky-blue {
+  border: none;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.00) 34.22%), #452eb8;
+  box-shadow: 0px 3px 1px 0px #146A8D;
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+  margin: 0px 10px;
+  text-decoration: none;
+}
+
+.header-join-btn-green {
+  border: none;
+  background-color: var(--color-skyblue-100);
+  box-shadow: 3px 3px 0 #197300;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
